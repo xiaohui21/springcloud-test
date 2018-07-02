@@ -1,0 +1,14 @@
+server:
+  # http://localhost:8777/
+  port: 8777
+
+eureka:
+  instance:
+    hostname: localhost
+  client:
+    #默认情况下eureka server也是一个eureka client ,必须要指定一个 server。
+    #通过eureka.client.registerWithEureka：false和fetchRegistry：false来表明自己是一个eureka server.
+    registerWithEureka: false
+    fetchRegistry: false
+    serviceUrl:
+      defaultZone: http://${eureka.instance.hostname}:${server.port}/eureka/
