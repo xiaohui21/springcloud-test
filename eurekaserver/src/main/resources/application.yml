@@ -1,6 +1,6 @@
 server:
-  # http://localhost:8777/
-  port: 8777
+  # http://localhost:7777/
+  port: 7777
 
 eureka:
   instance:
