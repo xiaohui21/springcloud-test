@@ -10,6 +10,7 @@
         <module name="eurekaserver" />
         <module name="feign" />
         <module name="ribbon" />
+        <module name="server-zuul" />
         <module name="springcloud-test" />
       </profile>
     </annotationProcessing>
