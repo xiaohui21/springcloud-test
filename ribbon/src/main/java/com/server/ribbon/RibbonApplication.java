@@ -7,6 +7,9 @@ import org.springframework.cloud.client.loadbalancer.LoadBalanced;
 import org.springframework.context.annotation.Bean;
 import org.springframework.web.client.RestTemplate;
 
+/**
+ * ribbon是一个负载均衡客户端，可以很好的控制htt和tcp的一些行为。Feign默认集成了ribbon。
+ */
 @SpringBootApplication
 //通过@EnableDiscoveryClient向服务中心注册
 @EnableDiscoveryClient
