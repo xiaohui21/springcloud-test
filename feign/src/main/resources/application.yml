@@ -1,6 +1,7 @@
 eureka:
   client:
     serviceUrl:
+      # 注明自己的服务注册中心的地址
       defaultZone: http://localhost:7777/eureka/
 server:
   port: 8005
