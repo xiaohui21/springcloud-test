@@ -19,6 +19,7 @@ public class HelloService {
 
     /**
      * 该注解对该方法创建了熔断器的功能，并指定了fallbackMethod熔断方法
+     * fallbackMethod的返回值和参数类型需要和被@HystrixCommand注解的方法完全一致。否则会在运行时抛出异常。
      * @param name
      * @return
      */

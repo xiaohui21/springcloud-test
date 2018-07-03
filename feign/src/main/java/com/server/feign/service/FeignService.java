@@ -12,7 +12,7 @@ import org.springframework.web.bind.annotation.RequestParam;
  * Describe:
  */
 @Service
-@FeignClient(value = "service-hi")
+@FeignClient(value = "service-hi",fallback = ServiceHiHystric.class)
 public interface FeignService {
 
     @RequestMapping(value = "/hi",method = RequestMethod.GET)

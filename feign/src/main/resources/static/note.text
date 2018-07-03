@@ -1,0 +1,1 @@
+Feign是自带断路器的,在配置文件加:feign.hystrix.enabled=true
