@@ -8,7 +8,7 @@ server:
 spring:
   application:
     name: service-feign
-# 打开断路器
+# feign调用模式下打开断路器
 feign:
    hystrix:
      enabled: true

@@ -10,6 +10,7 @@
         <option value="$PROJECT_DIR$/ribbon/pom.xml" />
         <option value="$PROJECT_DIR$/feign/pom.xml" />
         <option value="$PROJECT_DIR$/server-zuul/pom.xml" />
+        <option value="$PROJECT_DIR$/server-config/pom.xml" />
       </list>
     </option>
   </component>

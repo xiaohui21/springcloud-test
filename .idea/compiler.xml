@@ -10,9 +10,13 @@
         <module name="eurekaserver" />
         <module name="feign" />
         <module name="ribbon" />
+        <module name="server-config" />
         <module name="server-zuul" />
         <module name="springcloud-test" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="config-server" target="1.8" />
+    </bytecodeTargetLevel>
   </component>
 </project>
