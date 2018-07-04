@@ -15,4 +15,7 @@ spring:
       profile: dev
       uri: http://localhost:9999/
       discovery:
+        #从配置中心读取文件
+        enabled: true
+        # 配置中心的serviceId，即服务名
         service-id: config-server
