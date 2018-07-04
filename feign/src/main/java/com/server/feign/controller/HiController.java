@@ -22,4 +22,5 @@ public class HiController {
     public String sayHi(@RequestParam String name) {
         return feignService.sayHiFromClientOne(name);
     }
+
 }

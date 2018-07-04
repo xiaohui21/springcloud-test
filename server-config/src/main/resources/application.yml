@@ -3,6 +3,8 @@ eureka:
     serviceUrl:
       # 注明自己的服务注册中心的地址
       defaultZone: http://localhost:7777/eureka/
+server:
+  port: 9999
 spring:
   application:
     name: config-server
@@ -11,6 +13,7 @@ spring:
       server:
         git:
           # 在github上新建一个仓库(springCloudConfigServer)存放配置文件
+          # 直接访问文件 http://localhost:9999/config-client-dev.properties
           uri: https://github.com/MistraR/springCloudConfigServer
           # springCloudConfigServer仓库下的配置文件访问路径
           search-paths: /**
@@ -19,5 +22,3 @@ spring:
           password: mistra3030000
       # 配置仓库的分支
       label: master
-server:
-  port: 9999
