@@ -1,0 +1,23 @@
+eureka:
+  client:
+    serviceUrl:
+      # 注明自己的服务注册中心的地址
+      defaultZone: http://localhost:7777/eureka/
+spring:
+  application:
+    name: config-server
+  cloud:
+    config:
+      server:
+        git:
+          # 在github上新建一个仓库(springCloudConfigServer)存放配置文件
+          uri: https://github.com/MistraR/springCloudConfigServer
+          # springCloudConfigServer仓库下的配置文件访问路径
+          search-paths: /**
+          #访问git仓库的用户名
+          username: MistraR
+          password: mistra3030000
+      # 配置仓库的分支
+      label: master
+server:
+  port: 9999
