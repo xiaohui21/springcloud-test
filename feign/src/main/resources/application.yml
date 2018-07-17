@@ -10,4 +10,4 @@ spring:
     name: service-feign
 feign:
   hystrix:
-    enable: true
+    enabled: true
