@@ -13,8 +13,6 @@ import org.springframework.web.bind.annotation.RestController;
 //通过注解@EnableEurekaClient 表明自己是一个eurekaclient.
 @EnableEurekaClient
 @RestController
-//开启断路器
-@EnableHystrix
 public class EurekaclientApplication {
 
     public static void main(String[] args) {

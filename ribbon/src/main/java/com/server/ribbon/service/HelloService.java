@@ -1,6 +1,5 @@
 package com.server.ribbon.service;
 
-import com.netflix.hystrix.contrib.javanica.annotation.HystrixCommand;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Service;
@@ -25,9 +24,9 @@ public class HelloService {
      * @param name
      * @return
      */
-    @HystrixCommand(fallbackMethod = "hiError")
-    public String hiService(String name) {
-        return restTemplate.getForObject("http://SERVICE-HI/hi?name=" + name, String.class);
+    //@HystrixCommand(fallbackMethod = "hiError")
+    public String helloService(String name) {
+        return restTemplate.getForObject("http://SERVICE-HELLO/hi?name=" + name, String.class);
     }
 
     /**
@@ -35,7 +34,7 @@ public class HelloService {
      * @param name
      * @return
      */
-    public String hiError(String name) {
+    /*public String hiError(String name) {
         return "hi," + name + ",sorry,error!";
-    }
+    }*/
 }

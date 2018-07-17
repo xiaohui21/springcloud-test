@@ -9,6 +9,7 @@ import org.springframework.cloud.openfeign.EnableFeignClients;
 import org.springframework.web.bind.annotation.RestController;
 
 @SpringBootApplication
+@EnableEurekaClient
 //注解开启Feign
 @EnableFeignClients
 public class FeignApplication {
