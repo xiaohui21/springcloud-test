@@ -16,7 +16,7 @@ import org.springframework.web.client.RestTemplate;
 //通过@EnableEurekaClient向服务中心注册
 @EnableEurekaClient
 //开启断路器
-//@EnableHystrix
+@EnableHystrix
 //访问查看http://localhost:8003/hystrix
 //@EnableHystrixDashboard
 @EnableDiscoveryClient

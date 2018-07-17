@@ -13,6 +13,7 @@
         <module name="eurekaclient" />
         <module name="eurekaserver" />
         <module name="feign" />
+        <module name="feign2" />
         <module name="ribbon" />
         <module name="server-config" />
         <module name="server-zuul" />

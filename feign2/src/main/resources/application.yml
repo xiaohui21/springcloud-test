@@ -4,10 +4,10 @@ eureka:
       # 注明自己的服务注册中心的地址
       defaultZone: http://localhost:7777/eureka/
 server:
-  port: 8005
+  port: 8006
 spring:
   application:
-    name: service-feign
+    name: service-feign2
 feign:
   hystrix:
     enable: true

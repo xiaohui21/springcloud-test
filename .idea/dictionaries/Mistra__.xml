@@ -3,6 +3,7 @@
     <words>
       <w>eurekaclient</w>
       <w>eurekaserver</w>
+      <w>hystrix</w>
     </words>
   </dictionary>
 </component>

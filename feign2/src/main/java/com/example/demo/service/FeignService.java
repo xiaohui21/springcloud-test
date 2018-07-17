@@ -1,4 +1,4 @@
-package com.server.feign.service;
+package com.example.demo.service;
 
 import org.springframework.cloud.openfeign.FeignClient;
 import org.springframework.stereotype.Service;

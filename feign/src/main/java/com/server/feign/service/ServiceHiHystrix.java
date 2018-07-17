@@ -7,10 +7,10 @@ import org.springframework.stereotype.Component;
  * Time: 2018/7/3/003
  * Describe:
  */
-//@Component
-public class ServiceHiHystric  {
+@Component
+public class ServiceHiHystrix implements FeignService {
 
-
+    @Override
     public String sayHiFromClientOne(String name) {
         return "sorry " + name;
     }
