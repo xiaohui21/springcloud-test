@@ -9,7 +9,6 @@
         <module name="client" />
         <module name="config" />
         <module name="config-client" />
-        <module name="demo" />
         <module name="eurekaclient" />
         <module name="eurekaserver" />
         <module name="feign" />
@@ -21,6 +20,7 @@
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="config-server" target="1.8" />
+      <module name="demo" target="1.8" />
       <module name="feign2" target="1.8" />
     </bytecodeTargetLevel>
   </component>

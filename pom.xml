@@ -14,7 +14,7 @@
         <module>eurekaserver</module>
         <module>ribbon</module>
         <module>feign</module>
-        <module>demo</module>
+        <module>server-zuul</module>
     </modules>
 
     <parent>

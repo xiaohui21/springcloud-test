@@ -4,7 +4,7 @@ eureka:
       # 在哪个服务注册中心注册自己
       defaultZone: http://localhost:7777/eureka/
 server:
-  port: 8003
+  port: 8002
 spring:
   application:
     #若没有配置serviceId，默认情况下spring.application.name相当于服务名
