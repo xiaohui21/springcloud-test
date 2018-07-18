@@ -13,7 +13,6 @@ import org.springframework.web.bind.annotation.RestController;
  * Describe:
  */
 @RestController
-@RequestMapping("/hello")
 public class HelloController {
 
     @Autowired
@@ -27,14 +26,4 @@ public class HelloController {
     public String hi(@RequestParam String name) {
         return helloService.helloService(name);
     }
-
-    /*@RequestMapping("/hystrix")
-    //@HystrixCommand(fallbackMethod = "hiError")
-    public String home(@RequestParam String name) {
-        return "hi " + name + ",i am from port:" + port;
-    }
-
-    public String hiError(String name) {
-        return "hi," + name + ",sorry,error!";
-    }*/
 }
