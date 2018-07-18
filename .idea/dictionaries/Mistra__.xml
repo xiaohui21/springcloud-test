@@ -4,6 +4,7 @@
       <w>eurekaclient</w>
       <w>eurekaserver</w>
       <w>hystrix</w>
+      <w>zuul</w>
     </words>
   </dictionary>
 </component>
