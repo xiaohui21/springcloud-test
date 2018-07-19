@@ -8,6 +8,10 @@ server:
 spring:
   application:
     name: service-feign
+  boot:
+      admin:
+        client:
+          url: "http://localhost:9997"
 feign:
   hystrix:
     enabled: true
