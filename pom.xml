@@ -17,6 +17,7 @@
         <module>server-zuul</module>
         <module>config-client</module>
         <module>server-config</module>
+        <module>admin-server</module>
     </modules>
 
     <parent>
