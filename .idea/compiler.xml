@@ -22,7 +22,6 @@
     <bytecodeTargetLevel>
       <module name="config-server" target="1.8" />
       <module name="demo" target="1.8" />
-      <module name="feign2" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

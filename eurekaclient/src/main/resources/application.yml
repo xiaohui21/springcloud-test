@@ -1,7 +1,7 @@
 eureka:
   client:
     serviceUrl:
-      # 在哪个服务注册中心注册自己
+      # 在 哪个服务注册中心注册自己
       defaultZone: http://localhost:7777/eureka/
 server:
   port: 8002
